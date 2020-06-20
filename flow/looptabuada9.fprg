@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="fudi_"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-06-18 09:41:57 "/>
+        <attribute name="created" value="ZnVkaV87Q09SVEFOQTsyMDIwLTA2LTE4OyIwOToyNzoyNSAiOzIyMzg="/>
+        <attribute name="edited" value="ZnVkaV87Q09SVEFOQTsyMDIwLTA2LTE4OyIwOTo0MTo1NyAiOzM7MjM0OQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero, limite" type="Integer" array="False" size=""/>
+            <assign variable="numero" expression="9"/>
+            <assign variable="limite" expression="90"/>
+            <while expression="numero&lt;=limite">
+                <output expression="&quot;Contagem atual: &quot;&amp;numero" newline="True"/>
+                <assign variable="numero" expression="numero+9"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
